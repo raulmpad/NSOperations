@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D161F461513707B0045F739 /* RMPDownloadedImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D161F451513707B0045F739 /* RMPDownloadedImageVC.m */; };
+		7D9D3CA7150E067400BD2672 /* RMPCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D3CA6150E067400BD2672 /* RMPCustomCell.m */; };
+		7D9D3CAC150E068F00BD2672 /* RMPDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D3CAB150E068F00BD2672 /* RMPDownCell.m */; };
+		7DB763161510CF4B00022F56 /* RMPDownloadContentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB763151510CF4B00022F56 /* RMPDownloadContentOperation.m */; };
+		7DF25A80150DFA4200E4522B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF25A7F150DFA4200E4522B /* UIKit.framework */; };
+		7DF25A82150DFA4200E4522B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF25A81150DFA4200E4522B /* Foundation.framework */; };
+		7DF25A84150DFA4200E4522B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF25A83150DFA4200E4522B /* CoreGraphics.framework */; };
+		7DF25A8A150DFA4200E4522B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DF25A88150DFA4200E4522B /* InfoPlist.strings */; };
+		7DF25A8C150DFA4200E4522B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF25A8B150DFA4200E4522B /* main.m */; };
+		7DF25A90150DFA4200E4522B /* RMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF25A8F150DFA4200E4522B /* RMPAppDelegate.m */; };
+		7DF25A93150DFA4200E4522B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF25A91150DFA4200E4522B /* MainStoryboard.storyboard */; };
+		7DF25A9E150DFB1500E4522B /* RMPMainTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF25A9D150DFB1500E4522B /* RMPMainTVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D161F441513707B0045F739 /* RMPDownloadedImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPDownloadedImageVC.h; sourceTree = "<group>"; };
+		7D161F451513707B0045F739 /* RMPDownloadedImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPDownloadedImageVC.m; sourceTree = "<group>"; };
+		7D9D3CA5150E067400BD2672 /* RMPCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPCustomCell.h; sourceTree = "<group>"; };
+		7D9D3CA6150E067400BD2672 /* RMPCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPCustomCell.m; sourceTree = "<group>"; };
+		7D9D3CAA150E068F00BD2672 /* RMPDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPDownCell.h; sourceTree = "<group>"; };
+		7D9D3CAB150E068F00BD2672 /* RMPDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPDownCell.m; sourceTree = "<group>"; };
+		7DB763141510CF4B00022F56 /* RMPDownloadContentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPDownloadContentOperation.h; sourceTree = "<group>"; };
+		7DB763151510CF4B00022F56 /* RMPDownloadContentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPDownloadContentOperation.m; sourceTree = "<group>"; };
+		7DF25A7B150DFA4200E4522B /* TogglingCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TogglingCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF25A7F150DFA4200E4522B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DF25A81150DFA4200E4522B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DF25A83150DFA4200E4522B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DF25A87150DFA4200E4522B /* TogglingCells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TogglingCells-Info.plist"; sourceTree = "<group>"; };
+		7DF25A89150DFA4200E4522B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DF25A8B150DFA4200E4522B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF25A8D150DFA4200E4522B /* TogglingCells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TogglingCells-Prefix.pch"; sourceTree = "<group>"; };
+		7DF25A8E150DFA4200E4522B /* RMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMPAppDelegate.h; sourceTree = "<group>"; };
+		7DF25A8F150DFA4200E4522B /* RMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMPAppDelegate.m; sourceTree = "<group>"; };
+		7DF25A92150DFA4200E4522B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7DF25A9C150DFB1500E4522B /* RMPMainTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMPMainTVC.h; path = ../RMPMainTVC.h; sourceTree = "<group>"; };
+		7DF25A9D150DFB1500E4522B /* RMPMainTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMPMainTVC.m; path = ../RMPMainTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF25A78150DFA4200E4522B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF25A80150DFA4200E4522B /* UIKit.framework in Frameworks */,
+				7DF25A82150DFA4200E4522B /* Foundation.framework in Frameworks */,
+				7DF25A84150DFA4200E4522B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D161F48151370800045F739 /* DownloadImage */ = {
+			isa = PBXGroup;
+			children = (
+				7D161F441513707B0045F739 /* RMPDownloadedImageVC.h */,
+				7D161F451513707B0045F739 /* RMPDownloadedImageVC.m */,
+			);
+			name = DownloadImage;
+			sourceTree = "<group>";
+		};
+		7D9D3CA9150E067800BD2672 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D9D3CA5150E067400BD2672 /* RMPCustomCell.h */,
+				7D9D3CA6150E067400BD2672 /* RMPCustomCell.m */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		7D9D3CAD150E069300BD2672 /* Down Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D9D3CAA150E068F00BD2672 /* RMPDownCell.h */,
+				7D9D3CAB150E068F00BD2672 /* RMPDownCell.m */,
+			);
+			name = "Down Cell";
+			sourceTree = "<group>";
+		};
+		7D9D3CAE150E07C600BD2672 /* Main TVC */ = {
+			isa = PBXGroup;
+			children = (
+				7DF25A9C150DFB1500E4522B /* RMPMainTVC.h */,
+				7DF25A9D150DFB1500E4522B /* RMPMainTVC.m */,
+			);
+			name = "Main TVC";
+			sourceTree = "<group>";
+		};
+		7DB763181510D91D00022F56 /* Download Operation */ = {
+			isa = PBXGroup;
+			children = (
+				7DB763141510CF4B00022F56 /* RMPDownloadContentOperation.h */,
+				7DB763151510CF4B00022F56 /* RMPDownloadContentOperation.m */,
+			);
+			name = "Download Operation";
+			sourceTree = "<group>";
+		};
+		7DF25A70150DFA4100E4522B = {
+			isa = PBXGroup;
+			children = (
+				7DF25A85150DFA4200E4522B /* TogglingCells */,
+				7DF25A7E150DFA4200E4522B /* Frameworks */,
+				7DF25A7C150DFA4200E4522B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF25A7C150DFA4200E4522B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF25A7B150DFA4200E4522B /* TogglingCells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF25A7E150DFA4200E4522B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF25A7F150DFA4200E4522B /* UIKit.framework */,
+				7DF25A81150DFA4200E4522B /* Foundation.framework */,
+				7DF25A83150DFA4200E4522B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DF25A85150DFA4200E4522B /* TogglingCells */ = {
+			isa = PBXGroup;
+			children = (
+				7D9D3CAE150E07C600BD2672 /* Main TVC */,
+				7DF25A8E150DFA4200E4522B /* RMPAppDelegate.h */,
+				7DF25A8F150DFA4200E4522B /* RMPAppDelegate.m */,
+				7DF25A91150DFA4200E4522B /* MainStoryboard.storyboard */,
+				7DF25A86150DFA4200E4522B /* Supporting Files */,
+				7D9D3CA9150E067800BD2672 /* Custom Cell */,
+				7D9D3CAD150E069300BD2672 /* Down Cell */,
+				7DB763181510D91D00022F56 /* Download Operation */,
+				7D161F48151370800045F739 /* DownloadImage */,
+			);
+			path = TogglingCells;
+			sourceTree = "<group>";
+		};
+		7DF25A86150DFA4200E4522B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF25A87150DFA4200E4522B /* TogglingCells-Info.plist */,
+				7DF25A88150DFA4200E4522B /* InfoPlist.strings */,
+				7DF25A8B150DFA4200E4522B /* main.m */,
+				7DF25A8D150DFA4200E4522B /* TogglingCells-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DF25A7A150DFA4200E4522B /* TogglingCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF25A99150DFA4200E4522B /* Build configuration list for PBXNativeTarget "TogglingCells" */;
+			buildPhases = (
+				7DF25A77150DFA4200E4522B /* Sources */,
+				7DF25A78150DFA4200E4522B /* Frameworks */,
+				7DF25A79150DFA4200E4522B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TogglingCells;
+			productName = TogglingCells;
+			productReference = 7DF25A7B150DFA4200E4522B /* TogglingCells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF25A72150DFA4100E4522B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7DF25A75150DFA4100E4522B /* Build configuration list for PBXProject "TogglingCells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DF25A70150DFA4100E4522B;
+			productRefGroup = 7DF25A7C150DFA4200E4522B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF25A7A150DFA4200E4522B /* TogglingCells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DF25A79150DFA4200E4522B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF25A8A150DFA4200E4522B /* InfoPlist.strings in Resources */,
+				7DF25A93150DFA4200E4522B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF25A77150DFA4200E4522B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF25A8C150DFA4200E4522B /* main.m in Sources */,
+				7DF25A90150DFA4200E4522B /* RMPAppDelegate.m in Sources */,
+				7DF25A9E150DFB1500E4522B /* RMPMainTVC.m in Sources */,
+				7D9D3CA7150E067400BD2672 /* RMPCustomCell.m in Sources */,
+				7D9D3CAC150E068F00BD2672 /* RMPDownCell.m in Sources */,
+				7DB763161510CF4B00022F56 /* RMPDownloadContentOperation.m in Sources */,
+				7D161F461513707B0045F739 /* RMPDownloadedImageVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DF25A88150DFA4200E4522B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF25A89150DFA4200E4522B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DF25A91150DFA4200E4522B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF25A92150DFA4200E4522B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DF25A97150DFA4200E4522B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7DF25A98150DFA4200E4522B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DF25A9A150DFA4200E4522B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TogglingCells/TogglingCells-Prefix.pch";
+				INFOPLIST_FILE = "TogglingCells/TogglingCells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DF25A9B150DFA4200E4522B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TogglingCells/TogglingCells-Prefix.pch";
+				INFOPLIST_FILE = "TogglingCells/TogglingCells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF25A75150DFA4100E4522B /* Build configuration list for PBXProject "TogglingCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF25A97150DFA4200E4522B /* Debug */,
+				7DF25A98150DFA4200E4522B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF25A99150DFA4200E4522B /* Build configuration list for PBXNativeTarget "TogglingCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF25A9A150DFA4200E4522B /* Debug */,
+				7DF25A9B150DFA4200E4522B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF25A72150DFA4100E4522B /* Project object */;
+}
